@@ -1,0 +1,50 @@
+.contenedor {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 0;
+  display: flex;
+  gap: 20px;
+}
+.contenedor-conciertos {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.banner {
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  background-size: cover;
+  background-position: center center;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card {
+  border-radius: 10;
+  min-height: 200px;
+  font-weight: bold;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center; /* traer los  mensajes de los contenedore*/
+  /* width: 33.33% -20px; */
+  flex: 1 1 calc(33.33% - 20px); /* 3 cards por fila con espacio */
+  box-sizing: border-box;
+}
+
+.card .textos {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
